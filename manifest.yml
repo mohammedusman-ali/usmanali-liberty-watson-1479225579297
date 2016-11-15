@@ -1,0 +1,11 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: usmanali-liberty-watson
+  host: usmanali-liberty-watson
+  disk_quota: 1024M
+  services:
+  - AlchemyAPI-5q
+  - usmanali-liberty-watson-cloudantNoSQLDB
